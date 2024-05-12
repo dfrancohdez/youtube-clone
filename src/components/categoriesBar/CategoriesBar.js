@@ -32,7 +32,8 @@ const CategoriesBar=()=> {
           <span 
           onClick={()=>handleClick(value)}
           className={activeElemet===value?"active":""}
-          key={index}>{value}
+          key={index}>
+            {value}
           </span>))
         }
     </div>
